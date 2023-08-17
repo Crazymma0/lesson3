@@ -1,7 +1,7 @@
 from aiogram import types
 from ban_logic import ban_user_if_necessary
 
-bad_words = ["плохой", "тупой", "худой"]
+bad_words = ["плохой", "тупой", 'дрищ']
 
 async def process_offensive_message(message, user_violations):
     if message.content_type == types.ContentType.TEXT:
